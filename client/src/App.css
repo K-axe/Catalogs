@@ -1,0 +1,12 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .App {
+    overflow: hidden;
+    color: #242d49;
+    background:#c3bebe;
+  }
+
+  

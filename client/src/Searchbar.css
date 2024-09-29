@@ -1,0 +1,52 @@
+.Searchbar {
+    position: fixed;
+    width: 30%; /* Keep it fixed at the bottom */
+    margin: 0 auto;
+
+
+    bottom: 20px; /* Add some space from the bottom */
+    left: 20px; /* Space from the left */
+    right: 20px; /* Space from the right */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Padding for spacing */
+    z-index: 1000;/* Optional shadow effect */
+}
+.Searchbar:hover{
+    cursor: pointer;
+    /* width: 60%;
+    background-color: #f9f9f94d; */
+}
+
+.Searchbar input{
+    flex: 1; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 20px; 
+    font-size: 16px; 
+    outline: none; 
+    background-color: #ffffff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.Searchbar input::placeholder {
+    color: #aaaaaaf2; 
+  }
+.Searchbar button{
+    padding: 10px 20px; 
+  border: none; 
+  border-radius: 20px;
+  background-color: #007bff; 
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 10px; 
+  cursor: pointer; 
+  transition: background-color 0.3s;
+}
+.Searchbar button:hover {
+    background-color: #0056b3; 
+  }
+
+

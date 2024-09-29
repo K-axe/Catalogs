@@ -1,0 +1,31 @@
+.CategoryInfo {
+    position: fixed; 
+    bottom: 60px; 
+    left: 20px; 
+    display: flex;
+    align-items: center; 
+    z-index: 1000;
+    margin-left: 88%;
+}
+
+.CategoryInfo select {
+    padding: 10px; 
+    border: none; 
+    border-radius: 20px;
+    font-size: 16px; 
+    outline: none; 
+    background-color: #384451; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    margin-left: 10px; 
+}
+
+.CategoryInfo select:hover {
+    background-color: #303a44; 
+}
+
+.CategoryInfo option {
+    background-color: #f9f9f9; 
+    color: #333; 
+}
