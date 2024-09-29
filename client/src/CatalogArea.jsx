@@ -15,7 +15,7 @@ const CatalogArea = () => {
   const searchTerm = useSelector(state => state.products.searchTerm);
     
   useEffect(() => {
-    // Initially load products
+    
     dispatch(fetchProducts({ category: selectedCategory, searchTerm, skip: 0}));
   }, [dispatch, selectedCategory, searchTerm]);
 

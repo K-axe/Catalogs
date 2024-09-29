@@ -15,3 +15,9 @@ function App() {
 }
 
 export default App
+
+
+// -> No impelentation for error
+// -> some duplicate data is getting fetched
+// ->Impelemetation of lazy load for image is to be done
+
