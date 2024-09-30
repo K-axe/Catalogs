@@ -35,7 +35,6 @@ const CatalogArea = () => {
     
   return (
    <div className='CatalogArea'>
-    {console.log(items)}
     {
         items.map((item,index) =>(
             <ProductCard key={item.id -index} thumbnail={item.thumbnail} title={item.title} price={item.price} discountPercentage={item.discountPercentage}/>

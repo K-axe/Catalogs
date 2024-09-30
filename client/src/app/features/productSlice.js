@@ -66,7 +66,7 @@ const productsSlice = createSlice({
         const uniqueProducts = newProducts.filter(product => !existingIds.has(product.id));
 
         // Append new products
-        state.products = [...state.products, ...action.payload.products]; 
+        state.products = [...state.products, ...uniqueProducts]; 
       });
   }
 });
